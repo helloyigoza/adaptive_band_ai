@@ -1,0 +1,54 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Project artefacts ---
+data_cache/
+models/
+outputs/
+logs/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.parquet
+*.feather
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Test / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# --- OS ---
+*.log
+*.tmp
